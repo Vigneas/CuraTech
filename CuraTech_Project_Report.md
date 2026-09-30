@@ -1,7 +1,7 @@
-# MediKiosk Java Port - Project Report
+# CuraTech Java Port - Project Report
 
 ## 1. Introduction
-The **MediKiosk** project is an outpatient intake and triage platform, originally conceptualized as a web application, and now ported into a strict, monolithic Java-based architecture. This port was executed as a university Mini Project, designed to showcase fundamental and advanced core Java concepts, including Object-Oriented Programming (OOP), Data Structures, rule-based AI logic, and pure JDBC database integration.
+The **CuraTech** project is an outpatient intake and triage platform, originally conceptualized as a web application, and now ported into a strict, monolithic Java-based architecture. This port was executed as a university Mini Project, designed to showcase fundamental and advanced core Java concepts, including Object-Oriented Programming (OOP), Data Structures, rule-based AI logic, and pure JDBC database integration.
 
 ## 2. System Architecture
 The application adheres to a Model-View-Controller (MVC) architectural pattern, keeping the data handling, user interface, and application logic cleanly separated.

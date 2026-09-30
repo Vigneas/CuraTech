@@ -1,6 +1,6 @@
-# MediKiosk Java — AI-Powered Clinical Intake & Triage
+# CuraTech Java — AI-Powered Clinical Intake & Triage
 
-**MediKiosk** is an enterprise-grade hospital outpatient intake and triage platform. Originally conceptualized as a web application, this repository contains the strict, monolithic Java-based port. 
+**CuraTech** is an enterprise-grade hospital outpatient intake and triage platform. Originally conceptualized as a web application, this repository contains the strict, monolithic Java-based port. 
 
 This system was designed to handle patient registration, automatically assess symptom urgency via a rule-based AI engine, and queue patients for physicians based on medical priority.
 
