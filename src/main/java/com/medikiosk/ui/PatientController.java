@@ -281,7 +281,7 @@ public class PatientController {
                              URLEncoder.encode(textToRead, StandardCharsets.UTF_8.toString()) + 
                              "&tl=" + langCode + "&client=tw-ob";
                 
-                java.net.URL url = new java.net.URL(urlString);
+                java.net.URL url = java.net.URI.create(urlString).toURL();
                 java.net.HttpURLConnection conn = (java.net.HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
                 conn.setRequestProperty("User-Agent", "Mozilla/5.0");
