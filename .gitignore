@@ -1,0 +1,10 @@
+# Maven target directory
+target/
+
+# Downloaded environments and binaries
+maven_env/
+mariadb_env/
+*.zip
+
+# Agent scratch space
+scratch/

@@ -1,0 +1,146 @@
+.root {
+    -fx-base: #1f2937;
+    -fx-control-inner-background: #1f2937;
+    -fx-background: #111827;
+    -fx-text-base-color: #f9fafb;
+    -fx-background-color: #111827;
+}
+
+.title-label {
+    -fx-text-fill: #f9fafb;
+}
+
+.subtitle-label {
+    -fx-text-fill: #9ca3af;
+}
+
+.card {
+    -fx-background-color: #1f2937;
+    -fx-border-color: #374151;
+}
+
+.primary-button {
+    -fx-background-color: #f9fafb;
+    -fx-text-fill: #111827;
+}
+.primary-button:hover {
+    -fx-background-color: #e5e7eb;
+}
+
+.secondary-button {
+    -fx-background-color: #374151;
+    -fx-text-fill: #f9fafb;
+    -fx-border-color: #4b5563;
+}
+.secondary-button:hover {
+    -fx-background-color: #4b5563;
+}
+
+.text-field {
+    -fx-background-color: #1f2937;
+    -fx-border-color: #4b5563;
+    -fx-text-fill: #f9fafb;
+    -fx-prompt-text-fill: #6b7280;
+}
+.text-field:focused {
+    -fx-border-color: #f9fafb;
+}
+
+/* TabPane Styling */
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #1f2937;
+    -fx-border-color: transparent transparent #374151 transparent;
+}
+.tab-pane .tab:selected {
+    -fx-border-color: transparent transparent #f9fafb transparent;
+}
+.tab-pane .tab .tab-label {
+    -fx-text-fill: #9ca3af;
+}
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: #f9fafb;
+}
+
+/* TableView */
+.table-view {
+    -fx-border-color: #374151;
+}
+.table-view .column-header-background {
+    -fx-background-color: #111827;
+}
+.table-view .column-header {
+    -fx-border-color: transparent #374151 transparent transparent;
+}
+.table-view .column-header .label {
+    -fx-text-fill: #9ca3af;
+}
+.table-row-cell {
+    -fx-background-color: #1f2937;
+    -fx-border-color: transparent transparent #374151 transparent;
+}
+.table-row-cell:odd {
+    -fx-background-color: #374151;
+}
+.table-cell {
+    -fx-text-fill: #f9fafb;
+}
+
+/* Stat Cards for Admin */
+.stat-card {
+    -fx-background-color: #1f2937;
+    -fx-border-color: #374151;
+}
+.stat-card-title {
+    -fx-text-fill: #9ca3af;
+}
+.stat-card-value {
+    -fx-text-fill: #f9fafb;
+}
+.stat-card-red .stat-card-value { -fx-text-fill: #fca5a5; }
+.stat-card-yellow .stat-card-value { -fx-text-fill: #fcd34d; }
+.stat-card-green .stat-card-value { -fx-text-fill: #6ee7b7; }
+
+/* Badges */
+.badge-red {
+    -fx-background-color: #7f1d1d;
+    -fx-text-fill: #fca5a5;
+}
+.badge-yellow {
+    -fx-background-color: #78350f;
+    -fx-text-fill: #fcd34d;
+}
+.badge-green {
+    -fx-background-color: #064e3b;
+    -fx-text-fill: #6ee7b7;
+}
+
+/* Base styles for labels/checkboxes to inherit the dark mode text colors properly */
+.label, .check-box, .radio-button {
+    -fx-text-fill: #f9fafb;
+}
+
+.check-box .box {
+    -fx-background-color: #1f2937;
+    -fx-border-color: #4b5563;
+    -fx-border-radius: 4px;
+}
+.check-box:selected .mark {
+    -fx-background-color: #f9fafb;
+}
+
+.combo-box {
+    -fx-background-color: #1f2937;
+    -fx-border-color: #4b5563;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+.combo-box .list-cell {
+    -fx-text-fill: #f9fafb;
+}
+.combo-box-popup .list-view {
+    -fx-background-color: #1f2937;
+    -fx-border-color: #374151;
+}
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #374151;
+}
