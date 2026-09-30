@@ -1,3 +1,22 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "files.exclude": {
+        "mariadb_env": true,
+        "maven_env": true,
+        "target": true,
+        "scratch": true,
+        "**/.agent": true,
+        "**/.kiro": true
+    },
+    "search.exclude": {
+        "mariadb_env": true,
+        "maven_env": true,
+        "target": true,
+        "scratch": true
+    },
+    "files.watcherExclude": {
+        "**/mariadb_env/**": true,
+        "**/maven_env/**": true,
+        "**/target/**": true
+    }
 }
